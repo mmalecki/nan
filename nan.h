@@ -786,8 +786,6 @@ public:
       NanDisposePersistent(persistentHandle);
     if (callback)
       delete callback;
-    if (errmsg)
-      delete errmsg;
   }
 
   virtual void WorkComplete () {
